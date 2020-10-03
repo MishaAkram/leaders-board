@@ -1,35 +1,92 @@
 .student{
   width: 700px;
-  margin: auto;
-  display: block;
+  margin:0 auto;
+  display:block;
   margin-bottom: 30px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
+
 .left{
-  width: 60%;
-  display:inline-block ;
+  width:60%;
+  display: inline-block;
   vertical-align: middle;
   text-align: left;
-  
 }
+
 .right{
-  width: 40%;
+  width:40%;
   display: inline-block;
   vertical-align: middle;
   text-align: right;
 }
 
-.h2.StudentName{
-  margin: 0px;
+p.universityName{
   padding: 0px;
+  margin:0px;
 
 }
-.p.University{
-    padding: 0px;
-    margin: 0px;
+p.universityName span{
+ background: green;
+ color: white;
+ line-height: 17px;
+ text-transform: uppercase;
+ font-size: 11px;
+ font-weight: bold;
+ padding: 1px 5px;
+ border-radius: 3px;
+
+
+}
+#fail{
+  background: red;
+  color: white;
+  line-height: 17px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+
+
 }
 .score{
   font-size: 30px;
   font-weight: bold;
   color: green;
+}
+button.addScorebtn{
+  border: none;
+  background:red;
+  color: white;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  line-height: 16px;
+  position: relative;
+text-align: center;
+  top:-3px;
+  cursor: pointer;
+  left:7px
+}
+button.addScorebtn:hover{
+  background: green;
+}
+
+button.decScorebtn{
+  border: none;
+  background:red;
+  color: white;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  margin-left: 2px;
+  line-height: 16px;
+  position: relative;
+text-align: center;
+  top:-3px;
+  cursor: pointer;
+  left:7px
+}
+button.decScorebtn:hover{
+  background: rgb(147, 170, 147);
 }

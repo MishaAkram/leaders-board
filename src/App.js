@@ -6,15 +6,12 @@ class App extends Component{
   render(){
     return (
       <div className="App">
-       <Student/>
-       <Student/>
-       <Student/>
-       <Student/>
-       <Student/>
-       <Student/>
-       <Student/>
-       <Student/>
-       
+      <h1 className="leadersboardHeading">Leaders Board</h1>
+       <Student name ="John Doe" university="NED University " score ={350}/>
+       <Student name ="Shazaib Khan" university="University of Malaya" score ={350}/>
+       <Student name ="Misha Akram" university="NED University " score={349}/>
+       <Student name ="John Doe" university="NED University " score={348}/>
+       <Student name ="John Doe" university="NED University " score={346}/>
       
 
      </div>
